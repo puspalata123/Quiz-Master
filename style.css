@@ -231,9 +231,9 @@ section .option_list .option:hover{
     background: #d4edda;
     border-color: #c3e6cb;
 }
-.option_list .option.disabled{
+/* .option_list .option.disabled{ */
     /* pointer-events: none; */
-}
+/* } */
 .quiz_box footer{
     height: 60px;
     width: 100%;
