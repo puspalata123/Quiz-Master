@@ -35,7 +35,7 @@ let questions=[
     },
     {
         numb:4,
-        question:"Q4: When an operator's value is NULL, the type of returned by the unary operator is.",
+        question:"When an operator's value is NULL, the type of returned by the unary operator is.",
         answer:"Object",
         options:[
         "Boolean",
@@ -46,7 +46,7 @@ let questions=[
     },
     {
         numb:5,
-        question:"Q5: What does the JavaScript 'debugger' statements do?",
+        question:"What does the JavaScript 'debugger' statements do?",
         answer:"It acts as a breakpoint in a program",
         options:[
         "It will debug all the errors in the program at runtime.",
@@ -100,13 +100,15 @@ let questions=[
         ]
     },
     {
-
-        question:"Q10: Which of the following is not a Javascript framework?",
-        a:"Node",
-        b:"Vue",
-        c:"React",
-        d:"Cassandra",
-        ans:"ans4"
+        numb: 10,
+        question:"Which of the following is not a Javascript framework?",
+        answer:"Cassandra",
+        options:[
+        "Node",
+        "Vue",
+        "React",
+        "Cassandra",
+        ]
     }
 
 ];
